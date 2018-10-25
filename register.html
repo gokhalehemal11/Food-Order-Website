@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enter Your Details!</title>
+        <link rel = 'stylesheet' href = "random.css" type = "text/css" />
+        <script src = "ver.js"></script>
+    </head>
+    <body bgcolor = "#778899">
+	<center>
+       <h2>	Enter  your  personal  details.</h2>
+        <form name = "registration" method="post" onsubmit="validate()" action="menu.html">
+			<ul><h3>
+                <li><label>Name:</label></li>
+                <li><input name = "fname" type = "text" size = "40" /></li>
+                <li><label>Date of birth(dd/mm/yyyy):</label></li>
+                <li><input type = "text" size = "40" /></li>
+                <li><label>E-mail:</label></li>
+                <li><input name = "email" type = "text" size = "40" /></li>
+                <li><label>Mobile no. :</label></li>
+                <li><input name = "mob" type = "text" size = "40" /></li>
+                <li><label>Address:</label></li>
+                <li><input name = "addr" type = "text" size = "40" /></li>
+                <li><label>Pin code:</label></li>
+                <li><input name = "pin" type = "text" size = "40" /></li>
+                <li><label>State:</label></li>
+                <li><input name="state" type = "text" size = "40" /></li>
+                <li></h3>
+                    <select name = "country">
+                        <option selected = "" value = "Default">Please select a country</option>
+                        <option>Australia</option>
+                        <option>Belgium</option>
+                        <option>Canada</option>
+                        <option>Denmark</option>
+                        <option>India</option>
+                    </select>
+				
+                </li>
+				<br><br><li><input type = "submit" name = "submit" /></li>	
+            </ul>
+			</center>
+        </form>
+    </body>
+</html>
